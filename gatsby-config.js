@@ -6,7 +6,7 @@ module.exports = {
       summary: `Blog pessoal`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `http://blog.maugravena.me/`,
+    siteUrl: `https://blog.maugravena.me/`,
     social: {
       github: `maugravena`,
     },

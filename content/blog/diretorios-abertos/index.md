@@ -4,15 +4,15 @@ date: "2020-04-17"
 description: "Encontra arquivos com pesquisa avança no Google"
 ---
 
-Diretórios abertos são pastas que enviados para web servers que não são protegidas contra indexação, ou seja, podem ser encontradas pelo Google. Com isso você consegue ter acesso ao conteúdo dessas pastas apenas acessando via URL.
+Diretórios abertos são pastas que enviamos para web servers que não são protegidas contra indexação, ou seja, podem ser encontradas pelo Google. Com isso você consegue ter acesso ao conteúdo dessas pastas apenas acessando via URL.
 
-Essa é uma página padrão de um diretório aberto, mostrando todo seu conteúdo
+Essa é uma página padrão de um diretório aberto, mostrando todo seu conteúdo:
 
 ![Shotscreen de um diretório aberto](./screenshot-index-of-livros.png)
 
 Diretórios abertos não são necessariamente uma falha de segurança, podem ser intencionais e em alguns casos podem sim ser considerados uma vulnerabilidade.
 
-Esse post não tem a intenção de ensinar como expor conteúdos sensíveis de terceiros mas sim explorar diretórios aberto para encontrar qualquer arquivo de diversos formatos usando apenas o Google e para isso temos que fazer o uso de três keywords avançadas na busca:
+Esse post não tem a intenção de ensinar como expor conteúdos sensíveis de terceiros mas sim explorar diretórios aberto para encontrar qualquer arquivo de diversos formatos usando apenas o Google, e para isso temos que fazer o uso de três keywords avançadas na busca:
 
 intext: que permite encontrar qualquer texto no corpo da página
 intitle: que permite encontrar qualquer texto no título da página
@@ -22,7 +22,7 @@ combinando-as conseguimos encontrar diretórios abertos para baixar algum arquiv
 
 aqui estão as extensões mais populares de arquivos:
 
-- Livros (pdf|epub|mob)
+- Livros (pdf|epub|mobi)
 - Música (ac3|flac|m4a|mp3|ogg|wav|wma)
 - Imagens (bmp|gif|jpg|png|psd|tif|tiff)
 - Filmes/videos (wmv|mpg|avi|mp4|mkv|mov)
@@ -42,7 +42,7 @@ Primeiramente vamos separar as extensões mais populares de arquivos para livros
 então a busca do Google ficaria assim:
 
 ```
-intext:"O Cortiço" intitle:"index.of" (pdf|epub|mob) -inurl:(jsp|pl|php|html|aspx|htm|cf|shtml)
+intext:"O Cortiço" intitle:"index.of" (pdf|epub|mobi) -inurl:(jsp|pl|php|html|aspx|htm|cf|shtml)
 ```
 
 <br />
